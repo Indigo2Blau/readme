@@ -1,48 +1,48 @@
-# readme
-# 👋 Olá — eu sou Giovanni (Indigo2Blau)
+# 💡 readme
+# 👋 Oiê — sou o Giovanni (Indigo2Blau) 😄
 
-Sou Prompt Engineer — especialista em projetar, testar e otimizar prompts para modelos de linguagem (LLMs). Aqui no meu perfil compartilho meu trabalho, abordagens, exemplos práticos de prompts e recursos que uso para transformar intenções humanas em resultados consistentes e úteis com IA.
+Sou Prompt Engineer — crio, testo e melhoro prompts para LLMs. Aqui compartilho meus projetos, ideias, dicas de prompts e um pouco do que aprendo no dia a dia! 🚀
 
 ## TL;DR
-- Atuo com engenharia de prompts para produtos, automações e pesquisa.
-- Trabalho com modelos como GPT, Llama, Claude e frameworks como LangChain.
-- Foco em prompts robustos, templates reutilizáveis, avaliação automática e pipelines de fine-tuning / instrução quando necessário.
+- Trabalho com engenharia de prompts para produtos, automações e pesquisa.
+- Experiência com GPT, Llama, Claude e frameworks tipo LangChain.
+- Curto criar prompts robustos, templates práticos, avaliação automática e pipelines de fine-tuning/instrução.
 
 ---
 
 ## Sobre mim
-Trabalho com interação entre humanos e modelos de linguagem: transformar requisitos vagos em instruções claras e confiáveis para LLMs. Gosto de medir resultados, reduzir alucinações e criar experiências previsíveis para usuários e sistemas automatizados.
+Curioso por natureza, adoro transformar perguntas vagas em instruções super claras para LLMs 🤖. Gosto de medir resultados, evitar alucinações e criar experiências que realmente ajudam.
 
-Principais interesses:
-- Design de prompts e templates reutilizáveis
-- Prompt chaining e orquestração (multi-step)
-- Avaliação automática e métricas de qualidade de resposta
-- Prompt engineering para produtos (chatbots, assistentes, geração de código, resumo, classificação)
-- Integração com pipelines (APIs, LangChain, agentes)
-
----
-
-## Abordagem / Metodologia
-1. Definição do objetivo: o que o usuário precisa e qual é a saída ideal.
-2. Contexto: preparo de contexto minimalista e relevante (few-shot, system messages, instruções explícitas).
-3. Estruturação: decompor em passos (prompt chaining) quando for necessário raciocínio composto.
-4. Segurança e restrições: adicionar guardrails, verificação de toxicidade e limites de formato.
-5. Testes e métricas: criar casos de teste, métricas de precisão/relevância e monitoramento em produção.
-6. Iteração: coletar falhas, ajustar temperatura, truncamento de contexto e instruções.
+Meus interesses:
+- Design de prompts e templates reutilizáveis 📝
+- Prompt chaining & orquestração (multi-step) 🔗
+- Avaliação automática e métricas de qualidade 📊
+- Prompt engineering para produtos: chatbots, assistentes, geração de código, resumo, classificação 🤝
+- Integração com pipelines (APIs, LangChain, agentes) 🔌
 
 ---
 
-## Skills & Ferramentas
+## Como eu penso e trabalho 👨‍💻
+1. Defino o objetivo: o que o usuário precisa e como seria a saída perfeita.
+2. Crio contexto: só o essencial, nada de informação demais.
+3. Estruturo: divido em passos se precisar de raciocínio mais complexo.
+4. Segurança: adiciono guardrails e verificações (sem toxicidade por aqui!).
+5. Testes e métricas: faço casos de teste e acompanho os resultados.
+6. Itero: ajusto instruções, temperatura, contexto, tudo pra ficar melhor!
+
+---
+
+## Skills & Ferramentas 🛠️
 - Modelos: OpenAI GPT (3.5/4), Anthropic Claude, Meta Llama, etc.
 - Frameworks: LangChain, PromptLayer, Guidance, Hugging Face pipelines
 - Infra & APIs: OpenAI API, Azure OpenAI, Hugging Face Hub
-- Auxiliares: Vector DBs (Pinecone, Milvus), ferramentas de avaliação (BLEU, ROUGE, embedding similarity)
-- Outras: Python, JavaScript/TypeScript, testes automatizados, GitHub Actions
+- Extras: Vector DBs (Pinecone, Milvus), ferramentas de avaliação (BLEU, ROUGE, embedding similarity)
+- Outras: Python, JS/TS, testes automatizados, GitHub Actions
 
 ---
 
-## Templates & Exemplos de Prompt
-Exemplo: Resumo técnico direto
+## Exemplos de Prompt & Templates ✨
+Resumo técnico direto:
 ```
 Você é um assistente de resumo técnico. Receba o texto abaixo e entregue:
 1) Um resumo em 3 frases (máx. 60 palavras).
@@ -53,7 +53,7 @@ Texto:
 <<INSERIR_TEXTO_AQUI>>
 ```
 
-Exemplo: Gerador de testes unitários (para JS)
+Gerador de testes unitários (JS):
 ```
 Sistema: Você é um gerador de testes unitários confiável.
 Instrução: Leia o trecho de código JavaScript e gere testes unitários usando Jest. Inclua casos de sucesso e falha, mocks necessários e comentários explicando cada teste.
@@ -62,66 +62,65 @@ Código:
 Formato de saída: JSON com chaves: "tests" (arquivo .test.js), "mocks", "comentarios".
 ```
 
-Exemplo: Prompt chaining (análise + ação)
-Step 1: Analisar e extrair entidades
+Prompt chaining (análise + ação):
+Step 1: Extrair entidades
 ```
 Leia o texto e extraia: {nome, data, ação solicitada, urgência}. Retorne JSON.
 ```
-Step 2: Gerar resposta personalizada com base no JSON
+Step 2: Resposta personalizada
 ```
 Use o JSON gerado para compor uma resposta formal para o cliente, tom profissional, até 120 palavras.
 ```
 
 ---
 
-## Memes famosos em GIFs! 🖼️
+## Memes em GIFs! 😆
 
-### 1. "This is Fine" 🔥🐶
+### 1. "This is Fine" 🔥🐶  
 ![This is Fine](https://media.giphy.com/media/ARSp9T7wwxNcs/giphy.gif)
 
-### 2. "Doge" 🐶✨
+### 2. "Doge" 🐶✨  
 ![Doge](https://media.giphy.com/media/ToMjGpO6uV0dHtb7sYX/giphy.gif)
 
-### 3. "Surprised Pikachu" 😲⚡
+### 3. "Surprised Pikachu" 😲⚡  
 ![Surprised Pikachu](https://media.giphy.com/media/wSSooF0fJM97W/giphy.gif)
 
-### 4. "Deal With It" 😎🕶️
+### 4. "Deal With It" 😎🕶️  
 ![Deal With It](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
-### 5. "Rickroll" 🎸
+### 5. "Rickroll" 🎸  
 ![Rickroll](https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif)
 
+---
+
+## Boas práticas (resumão) 🏆
+- Seja explícito: diga como quer o formato, limite e exemplos.
+- Contexto: só o relevante, sem exageros.
+- Few-shot para estilos específicos.
+- Teste com vários inputs e edge cases.
+- Avalie e registre as respostas automaticamente.
+- Ajuste temperatura/penalidades para equilibrar criatividade e precisão.
 
 ---
 
-## Boas práticas (resumidas)
-- Seja explícito: especifique formato de saída, limites e exemplos.
-- Forneça contexto relevante, não todo o contexto possível.
-- Use few-shot quando quiser um estilo específico.
-- Teste com diversidade de inputs e edge cases.
-- Automatize avaliação e logging das respostas.
-- Controle temperatura e penalidades para equilíbrio entre criatividade e precisão.
+## Projetos & Portfólio 🔥
+- [prompt-tooling](https://github.com/Indigo2Blau/prompt-tooling) — biblioteca de templates e testes para avaliação de prompts.
+- [conversational-agent](https://github.com/Indigo2Blau/conversational-agent) — agente modular para suporte técnico com logs e métricas.
+- [docgen](https://github.com/Indigo2Blau/docgen) — geração automática de documentação a partir de commits e comentários.
 
 ---
 
-## Projetos & Portfólio (destaques)
-- prompt-tooling — biblioteca de templates e testes para avaliação de prompts. — https://github.com/Indigo2Blau/prompt-tooling
-- conversational-agent — agente modular para suporte técnico com logs e métricas. — https://github.com/Indigo2Blau/conversational-agent
-- docgen — geração automática de documentação a partir de commits e comentários de código. — https://github.com/Indigo2Blau/docgen
+## Como trabalho com clientes/times 🤝
+- Workshops para definir intents e casos de uso.
+- Prototipagem rápida: templates e testes em 1–2 sprints.
+- Integração & monitoração: deploy + coleta de métricas e logs.
+- Finetune / RLHF: preparo datasets e avaliações quando precisa.
 
 ---
 
-## Como trabalho com clientes / times
-- Workshops iniciais para definição de intents e casos de uso.
-- Prototipagem rápida: criar prompt templates e tests em 1–2 sprints.
-- Integração e monitoramento: deploy da solução + coleta de métricas e logs.
-- Finetune / RLHF: quando necessário, preparo datasets e avaliações.
-
----
-
-## Contato
-- GitHub: https://github.com/Indigo2Blau
-- Twitter / X: https://twitter.com/Indigo2Blau
-- LinkedIn: https://www.linkedin.com/in/indigo2blau
+## Bora conversar? 💬
+- GitHub: [Indigo2Blau](https://github.com/Indigo2Blau)
+- Twitter / X: [Indigo2Blau](https://twitter.com/Indigo2Blau)
+- LinkedIn: [indigo2blau](https://www.linkedin.com/in/indigo2blau)
 
 Última atualização: 2025-10-27
