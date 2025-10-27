@@ -41,21 +41,6 @@ Principais interesses:
 
 ---
 
-## Projetos públicos
-prompt-tooling  
-[![CI]((https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZtZm9qN2VwaWV0bThicDJubzJxZHM5eGd4emlvZGxjN3J6Z3V1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7ydUQC0CC2cNVtcrYH/giphy.gif))](https://github.com/Indigo2Blau/prompt-tooling) 
-https://github.com/Indigo2Blau/prompt-tooling
-
-conversational-agent  
-[![Deploy]([https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmRmOHlzZHduMGh5bzVmeTF4dXJrNmI0bTNlMmR2cjk1NXdycnR4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CVtNe84hhYF9u/giphy.gif))](https://github.com/Indigo2Blau/conversational-agent)  
-https://github.com/Indigo2Blau/conversational-agent
-
-docgen  
-[![Coverage]([https://media.giphy.com/media/l0HlQ7LRalxC6p8Ew/giphy.gif](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXlqMzRhaTlzcW0yZ3ZkMDRnNHFndHNlY2VpNzczcnNmMHF5ZXBiMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TEG31yxFAmJShqkcV3/giphy.gif))](https://github.com/Indigo2Blau/docgen) 
-https://github.com/Indigo2Blau/docgen
-
----
-
 ## Templates & Exemplos de Prompt
 Exemplo: Resumo técnico direto
 ```
