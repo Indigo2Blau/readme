@@ -74,6 +74,26 @@ Use o JSON gerado para compor uma resposta formal para o cliente, tom profission
 
 ---
 
+## Memes famosos em GIFs! 🖼️
+
+### 1. "This is Fine" 🔥🐶
+![This is Fine](https://media.giphy.com/media/ARSp9T7wwxNcs/giphy.gif)
+
+### 2. "Doge" 🐶✨
+![Doge](https://media.giphy.com/media/ToMjGpO6uV0dHtb7sYX/giphy.gif)
+
+### 3. "Surprised Pikachu" 😲⚡
+![Surprised Pikachu](https://media.giphy.com/media/wSSooF0fJM97W/giphy.gif)
+
+### 4. "Deal With It" 😎🕶️
+![Deal With It](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
+
+### 5. "Rickroll" 🎸
+![Rickroll](https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif)
+
+
+---
+
 ## Boas práticas (resumidas)
 - Seja explícito: especifique formato de saída, limites e exemplos.
 - Forneça contexto relevante, não todo o contexto possível.
